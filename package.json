@@ -1,0 +1,34 @@
+{
+  "name": "lambda-discord-firehose",
+  "version": "0.0.1",
+  "description": "Turns SNS => discord message",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bartlett705/lambda-discord-firehose.git"
+  },
+  "keywords": [
+    "lambda",
+    "sns",
+    "discord"
+  ],
+  "author": "Ahmad K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartlett705/lambda-discord-firehose/issues"
+  },
+  "homepage": "https://github.com/bartlett705/lambda-discord-firehose#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^4.0.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
